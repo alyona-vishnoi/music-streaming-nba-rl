@@ -22,8 +22,8 @@ measurable bar.
 - A music streaming simulator with 5 user engagement states 
   and 5 action channels
 - Three reward functions demonstrating the reward hacking problem
-- CQL offline agent — trains on frozen logs, never touches the environment
-- Doubly Robust OPE — used as a deployment gate before any policy ships
+- CQL offline agent - trains on frozen logs, never touches the environment
+- Doubly Robust OPE - used as a deployment gate before any policy ships
 
 ## Key Results
 
@@ -32,9 +32,9 @@ measurable bar.
 - CQL converges to conservative Q estimates (~7.0) while vanilla 
   DQN inflates to ~9.5, overestimating value of unseen actions
 - Both CQL and DQN beat the behavior policy baseline (0.037) 
-  under DR evaluation — both clear the deployment gate
+  under DR evaluation - both clear the deployment gate
 - CQL learned to reduce push notifications to lapsed/churning 
-  users and increase new_mix recommendations — aligning with 
+  users and increase new_mix recommendations - aligning with 
   the LTV reward structure
 
 ## Notebooks
@@ -62,6 +62,6 @@ Notebook 01 generates logs saved to Google Drive, loaded by 02 and 03.
 
 ## References
 
-- Kumar et al. 2020 : Conservative Q-Learning for Offline RL
-- Levine et al. 2020 : Offline RL: Tutorial, Review, and Perspectives
-- Fujimoto et al. 2019 : Off-Policy Deep RL without Exploration (BCQ)
+- Kumar et al. 2020 : [Conservative Q-Learning for Offline RL](https://arxiv.org/abs/2006.04779)
+- Levine et al. 2020 : [Offline RL: Tutorial, Review, and Perspectives](https://arxiv.org/abs/2005.01643)
+- Fujimoto et al. 2019 : [Off-Policy Deep RL without Exploration (BCQ)](https://arxiv.org/abs/1812.02900)
