@@ -6,6 +6,9 @@ Spotify and Netflix. Trains a Conservative Q-Learning (CQL)
 agent on historical interaction logs without any live environment 
 interaction, and evaluates it using Doubly Robust off-policy estimation.
 
+<img width="2720" height="800" alt="music_nba_system_architecture_v2" src="https://github.com/user-attachments/assets/7fb9c72d-7d5d-45d0-aed8-106384de140b" />
+
+
 ## The Problem
 
 Subscription platforms need to decide which channel to use to 
